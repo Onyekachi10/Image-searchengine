@@ -1,0 +1,19 @@
+{
+  "name": "image-search_2",
+  "version": "1.0.0",
+  "description": "image search engine",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "gulp"
+  },
+  "author": "kachi",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-postcss": "^10.0.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  }
+}
