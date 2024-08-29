@@ -2,7 +2,7 @@ const gulp = require("gulp"),
   browserSync = require("browser-sync").create(),
   postcss = require("gulp-postcss"),
   source = "./src/css/",
-  dest = "./src/";
+  dest = "./";
 
 function html() {
   return gulp.src(dest + "**/*.html");
